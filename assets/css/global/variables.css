@@ -1,0 +1,9 @@
+:root{
+    
+    --primary-color-1: #1a1a1a; /* fundo claro */
+    --primary-color-2: #0f0f0f; /* fundo escuro */
+    --secondary-color-1: #f2e6c8; /* titulo */
+    --secondary-color-2: #7a2d26; /* botao */
+    --secondary-color-3: #5c201b; /* botao */
+    --text-color: #f7f7f7; /* texto */
+}
