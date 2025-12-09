@@ -1,26 +1,24 @@
 
 .header-links{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     padding: 2rem 4rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     ;
 }
+.nav-links{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
 .nav-box{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
-
+    gap: 4rem;
 }
-
-.links{
-   background-color: var(--secondary-color-2);
-    padding: .75rem;
-    border-radius: 8px;
-}
-.links:hover{
-    background-color: var(--secondary-color-3);
-    transition: .3s;
+li a{
+    font-size: 1.2rem;
+    
 }

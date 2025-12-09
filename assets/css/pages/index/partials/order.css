@@ -1,0 +1,24 @@
+.order-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 64px 0;
+}
+.order-button{
+display: flex;
+flex-direction: row;
+align-items: center;
+background-color: var(--secondary-color-2);
+padding: 0 15px ;
+border-radius: 8px;
+transition: background-color 0.3s ease, color 0.3s ease;
+position: relative;
+}
+.order-button:hover{
+background-color: var(--secondary-color-3);
+}
+.icon {
+    position: absolute;
+    left: 0.2px;
+}
