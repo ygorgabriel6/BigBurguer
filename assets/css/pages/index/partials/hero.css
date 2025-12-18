@@ -42,3 +42,27 @@
   gap: 1.5rem;
   margin-top: 2rem;
 }
+
+@media screen and (max-width: 1000px) {
+
+.hero-img {
+  grid-row: 2;
+}
+
+.hero {
+  margin: 32px;
+}
+
+.hero-content  {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.hero-tittle, .hero-text{
+ text-align: center;
+}
+
+.hero-button {
+justify-content: center;
+}
+
+}

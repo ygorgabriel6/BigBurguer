@@ -5,3 +5,10 @@
     color: var(--text-color);
     
 }
+@media screen and (max-width: 1000px) {
+    .footer{
+        font-size: 0.9rem;
+        padding: 15px 0;
+    }
+    
+}

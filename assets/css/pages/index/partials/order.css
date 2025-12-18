@@ -22,3 +22,20 @@ background-color: var(--secondary-color-3);
     position: absolute;
     left: 0.2px;
 }
+@media screen and (max-width: 1000px) {
+.order-container{
+    text-align: center;
+margin: 32px;
+
+}
+.order-button{
+flex-wrap: wrap;
+}
+.order-button:hover{
+background-color: var(--secondary-color-3);
+}
+.icon {
+    position: absolute;
+    left: 0.2px;
+}
+}

@@ -1,24 +1,35 @@
 
 .header-links{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding: 2rem 4rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    ;
-}
-.nav-links{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    
 }
 .nav-box{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 4rem;
 }
 li a{
     font-size: 1.2rem;
     
+}
+@media screen and (max-width: 1000px){
+  
+.header-links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+.nav-box{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    gap: 2rem;
+}
 }
